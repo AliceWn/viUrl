@@ -70,3 +70,7 @@ echo $url->setFragment('randomHash')->buildUrl();
 // Add a port - https://www.test.example.com:8888/test4/test3/new?key1=testValue#randomHash
 echo $url->setPort(8888)->buildUrl();
 ```
+
+## License
+
+viUrl is licenced under the [MIT License] (http://opensource.org/licenses/MIT).
