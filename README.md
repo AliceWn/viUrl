@@ -12,7 +12,7 @@ Via composer
 ```json
 {
 	"require": {
-		"vitanov/url": "master"
+		"vitanov/url": "dev-stable"
 	}
 }
 ```
