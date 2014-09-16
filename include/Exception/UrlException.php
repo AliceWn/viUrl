@@ -20,6 +20,6 @@
 
 namespace Vi\Exception;
 
-class viUrlException extends Exception {
+class UrlException extends \Exception {
 	
 }

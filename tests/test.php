@@ -17,11 +17,11 @@
 # DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-use Vi\Url\viUrl;
-require_once '../include/class.vi-url-exception.php';
-require_once '../include/class.vi-url.php';
+use Vi\Url\Url;
+require_once '../include/Exception/UrlException.php';
+require_once '../include/Url/Url.php';
 
-$url = new viUrl('http://test.example.com/test1/test2');
+$url = new Url('http://test.example.com/test1/test2');
 
 // This will output - http://test.example.com/test1/test2
 echo $url->buildUrl();

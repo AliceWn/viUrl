@@ -19,14 +19,14 @@
 */
 
 namespace Vi\Url;
-use Vi\Exception;
+use Vi\Exception\UrlException;
 
 /**
  * Class declaration
  * @author Radoslav Vitanov
  * @since 15.09.2014
  */
-class viUrl {
+class Url {
 	
 	const URL_SCHEME_SEPARATOR 		= '://';
 	const URL_PORT_SEPARATOR 		= ':';
@@ -276,7 +276,7 @@ class viUrl {
 		}
 		
 		if (!is_array($params)) {
-			throw new \viUrlException("Invalid parameter passed to viUrl::setQueryParams. Expecting array.");
+			throw new \UrlException("Invalid parameter passed to viUrl::setQueryParams. Expecting array.");
 		}
 		
 		$this->_queryParams = $params;
@@ -359,7 +359,7 @@ class viUrl {
 		}
 		
 		if (!is_array($path)) {
-			throw new \viUrlException("Invalid parameter passed to viUrl::setPath. Expecting array.");
+			throw new \UrlException("Invalid parameter passed to viUrl::setPath. Expecting array.");
 		}
 		
 		$this->_path = $path;
