@@ -495,4 +495,21 @@ class viUrl {
 		}
 		return $url;
 	}
+	
+	/**
+	 * Redirects to the current url
+	 * @param number $status
+	 */
+	public function redirect($status = 301) {
+		$url = $this->buildUrl();
+		
+		if (headers_sent()) {
+			echo '<script type="text/javascript">window.location="' . $url . '";</script>';
+		} else {
+			header('Status: ' . $status);
+			header('Location: ' . $url);
+		}
+		
+		die;
+	}
 }
