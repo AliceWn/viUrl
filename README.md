@@ -1,9 +1,9 @@
 viUrl
 =====
 
-viUrl is class wrapper for object oriented way of building url's.
+viUrl is class wrapper for object oriented way of building or manipulating Url strings.
 
-Current version 1.0.
+Website [www.vitanov.in](http://www.vitanov.in)
 
 ## Usage
 
