@@ -19,6 +19,7 @@
 */
 
 namespace Vi\Url;
+use Vi\Exception;
 
 /**
  * Class declaration
