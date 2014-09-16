@@ -8,7 +8,6 @@ Website [www.vitanov.in](http://www.vitanov.in)
 ## Install
 
 Via composer
-====
 
 ```json
 {
