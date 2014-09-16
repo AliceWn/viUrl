@@ -5,10 +5,30 @@ viUrl is class wrapper for object oriented way of building or manipulating Url s
 
 Website [www.vitanov.in](http://www.vitanov.in)
 
+## Install
+
+Via composer
+====
+
+```json
+{
+	"require": {
+		"vitanov/url": "master"
+	}
+}
+```
+
+Then add this to your project
+
+```php
+require 'vendor/autoload.php';
+use Vi\Url\Url;
+```
+
 ## Usage
 
 ```php
-$url = new viUrl('http://test.example.com/test1/test2');
+$url = new Url('http://test.example.com/test1/test2');
 ```
 
 ```php

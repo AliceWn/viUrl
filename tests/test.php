@@ -18,8 +18,8 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 use Vi\Url\Url;
-require_once '../include/Vi\Exception/UrlException.php';
-require_once '../include/Vi\Url/Url.php';
+require_once '../include/Vi/Exception/UrlException.php';
+require_once '../include/Vi/Url/Url.php';
 
 $url = new Url('http://test.example.com/test1/test2');
 
