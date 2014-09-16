@@ -2,6 +2,7 @@
     "name": "vitanov/url",
     "type": "library",
     "description": "Url builder wrapper for PHP 5.3+",
+    "version": "1.0.0",
     "keywords": ["url","redirecting"],
     "homepage": "https://github.com/Sh1d0w/viUrl",
     "license": "MIT",
